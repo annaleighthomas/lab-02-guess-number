@@ -30,36 +30,22 @@ submitButton.addEventListener('click', () => {
         textDisplay.textContent = 'Nice!';
     }
 
-    if (number === 1) {
-        guessesLeft--;
-     }
+    if (number === 1 || number === -1) {
+        guessesLeft--; // guessesLeft = guessesLeft - 1;
+        displayNumberOfGuessesLeft.textContent = guessesLeft;
+    } else if (number === 0) {
+        alert('You Win!');
+    } 
+    
+    if (guessesLeft <= 0) {
+        alert('You Lose!');
+    }
+
+
 
     
-
-
 
 
 console.log(number)
-    
 console.log(randomNumber);
-    
-
-    
-
-
-    //  // 2. compare guessed number to actual number
-    //     - is guess too low too high or correct?
-    //  // 3. display message
-    //  // 4. decrement tries remaining
-    //  // 5. no tries remaining 
-    //      - display message
-    //      - display lose message text.Content
-    //      - disable game play
-    //  // 6. correct guess?
-    //      - display win message text.Content 
-    //      - disable game play
-
-
-
-
 });
