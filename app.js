@@ -42,13 +42,4 @@ submitButton.addEventListener('click', () => {
         alert('You Lose!');
         submitButton.disabled = true;
     } 
-
-
-
-
-    
-
-
-console.log(number)
-console.log(randomNumber);
 });
