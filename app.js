@@ -35,11 +35,14 @@ submitButton.addEventListener('click', () => {
         displayNumberOfGuessesLeft.textContent = guessesLeft;
     } else if (number === 0) {
         alert('You Win!');
+        submitButton.disabled = true;
     } 
     
     if (guessesLeft <= 0) {
         alert('You Lose!');
-    }
+        submitButton.disabled = true;
+    } 
+
 
 
 

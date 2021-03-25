@@ -5,10 +5,28 @@ body {
     padding: 0%;
     margin: 0%;
     text-align: center;
+    background-color: rgb(177, 145, 236);
+    
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+}
+
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(252, 121, 121);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
